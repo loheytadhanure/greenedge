@@ -1,0 +1,16 @@
+.footer {
+  background: #f0f0f0;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.footer-links a {
+  margin: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+}

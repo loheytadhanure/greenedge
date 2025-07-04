@@ -1,0 +1,31 @@
+.home-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  gap: 2rem;
+}
+
+.home-button {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.5s ease;
+  background: linear-gradient(145deg, #f9d423, #f83600);
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 12px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+.home-button:hover {
+  transform: scale(1.05);
+}
+
+.home-button.active {
+  opacity: 1;
+  transform: translateY(0);
+}

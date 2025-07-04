@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;              /* control vertical size */
+  padding: 0 20px;           /* horizontal padding */
+  background-color: #004225; /* dark green or your brand color */
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+
+.header-right button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
